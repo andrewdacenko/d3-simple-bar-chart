@@ -2,22 +2,23 @@
 <html>
 <head>
   <title>D3 bar</title>
-  <!-- http://bost.ocks.org/mike/bar/ -->
+  <!-- http://bost.ocks.org/mike/bar/2/ -->
 
   <style>
-  .chart div {
+  .chart rect {
+    fill: steelblue;
+  }
+
+  .chart text {
+    fill: white;
     font: 10px sans-serif;
-    background-color: steelblue;
-    text-align: right;
-    padding: 3px;
-    margin: 1px;
-    color: white;
+    text-anchor: end;
   }
   </style>
 </head>
 <body>
 
-  <div class="chart"></div>
+  <svg class="chart"></svg>
 
 <script src="bower_components/d3/d3.js"></script>
 <script src="js/main.js"></script>
