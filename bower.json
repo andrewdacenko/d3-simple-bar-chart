@@ -1,0 +1,19 @@
+{
+  "name": "bar-chart",
+  "version": "0.0.0",
+  "authors": [
+    "Andrew Dacenko <a.s.dvornik@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.5"
+  }
+}
